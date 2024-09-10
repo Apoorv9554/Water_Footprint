@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Water Footprint Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Include JavaScript libraries for AI and Blockchain (if necessary) -->
+    <script src="calci.js"></script>
+</head>
+<body>
+    <div id="minicircle"></div>
+    <!-- Header -->
+    <header>
+        <a href="/Water_Footprints_Calculator/index - Copy.html"><img src="logo.png" alt=""></a>
+    <div class="heading">
+        <h1>Water Footprint Calculator</h1>
+        <p>Calculate the water footprint of different items.</p>
+    </div>  
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="calculator">
+            <h2>Calculate Water Footprint</h2>
+            <form id="calculation-form">
+                <label for="item">Select an Item:</label>
+                <select id="item" name="item">
+                    <!-- Populate this dropdown with item options -->
+                    <option value="item1">Item 1</option>
+                    <option value="item2">Item 2</option>
+                    <option value="item3">Item 3</option>
+                    <option value="item4">Item 4</option>
+                    <!-- Add more items as needed -->
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <button type="button" id="calculate-button">Calculate</button>
+            </form>
+
+            <div id="result">
+                <h3>Water Footprint:</h3>
+                <p id="footprint-value">0 liters</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Water Footprint Calculator. All rights reserved.</p>
+    </footer>
+    <script src="calci.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
