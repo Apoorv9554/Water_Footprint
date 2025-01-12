@@ -102,17 +102,16 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 40px;
+    padding: 20px 5%;
     color: white;
     background-color: #211b1b;
-    height: 120px;
+    height: 80px;
+    align-items: center;
 }
 
 #nav img {
-    width: 150px;
-    height: 150px;
-    margin-left: -30px;
-    margin-top: -30px;
+    width: 100px;
+    height: auto;
 }
 
 #nav h4 {
@@ -598,7 +597,7 @@ body {
     left: 0;
     width: 100%;
     height: 120px;
-    background: url("svg\ \(2\).png");
+    background: url("/Images/svg\ \(2\).png");
     background-size: 1000px 120px;
   }
   
